@@ -1,0 +1,121 @@
+body{
+    font-family:Neue Frutiger World, Tahoma, sans-serif ;
+    color:#23221d ;
+    background-color:#efede3 ;
+    
+}
+#nhanvat{
+    display: flex;
+    width: 430px;
+    height: 500px;
+    background-image: url("brimstone-valorant-uhdpaper.com-4K-5.2393-wp.thumbnail (2).jpg");
+    justify-content: center;
+    align-items: flex-end;
+   color: ;
+    border-style: double;
+    border-color: red;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    width: 430px;
+    height: 500px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+    animation: bay 0.5s;
+    
+}
+#chu{
+    border-style: groove;
+    text-align: center;
+    background-color: #FA5858;
+    width: 300px;
+    height: 70px;
+    font-size: 50px;
+    color:black;
+    
+  
+}
+#hover{
+    color: #efede3;
+    
+}
+
+@keyframes bay{
+    from{transform: translateY(23%);}
+}
+#chon{
+    text-align: center;
+    font-size: 50px;
+}
+.k{
+    color: rgba(0, 0, 0, 0);
+}
+#khung{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1500px;
+    margin-top: 5%;
+}
+
+#nhanvat1{
+    width: 430px;
+    display: flex;
+    background-image: url("valorant-new-agent-astra (2).jpg");
+    justify-content: center;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0);
+    border-style: double;
+    border-color: red;
+}
+#nhanvat2{
+    width: 430px;
+    display: flex;
+    background-image: url("OMEN (2).jpg");
+    justify-content: center;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0);
+    border-style: double;
+    border-color: red;
+}
+#nhanvat3{
+    margin-top: 5%;
+    width: 430px;
+    height: 500px;
+    display: flex;
+    background-image: url("viper-valorant (2).jpg");
+    justify-content: center;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0);
+    border-style: double;
+    border-color: red;
+}
+#tieude{
+  text-align: center;
+  margin-top: 100px;
+  width: 1500px;
+  position: relative;
+  animation-name: example ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite
+}
+@keyframes example{
+   0%{color: red;}
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#fade-in {
+    animation: fade-in 0.8s;
+}
+
